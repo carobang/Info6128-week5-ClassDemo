@@ -1,0 +1,20 @@
+<ons-page id="tabs">
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Back</ons-back-button></div>
+        <div class="center">Tabs</div>
+      </ons-toolbar>
+    <ons-tabbar swipeable position="auto">
+        <ons-tab page="tab1.html" lable="Tab 1" icon="ion-ios-home" badge ="7" active></ons-tab>
+        <ons-tab page="tab2.html" lable="Tab 2" icon="md-settings"></ons-tab>
+    </ons-tabber>
+
+    <template id="tab1.html">
+        <ons-page>
+            <p style="text-align: center;">This is tab 1!</p>
+        </ons-page>
+    </template>
+
+    <template id="tab2.html">
+        <p style="text-align: center;">This is tab 2!</p>
+    </template>
+</ons-page>
